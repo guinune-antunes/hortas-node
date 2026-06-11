@@ -9,7 +9,7 @@ const pool = require('../db');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 
-const JWT_SECRET = process.env.JWT_SECRET || 'hortas_secret_key';
+const JWT_SECRET = process.env.JWT_SECRET_KEY || 'hortas_secret_key';
 
 // ── Helper: middleware JWT para cliente ──
 function autenticarCliente(req, res, next) {
