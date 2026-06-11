@@ -19,7 +19,7 @@ function _renderPortalSelector() {
     <div class="auth-layout">
       <div class="auth-container" style="max-width:560px;">
         <div class="auth-logo">
-          <h1>🌱 Hortas</h1>
+          <img src="/img/logo-hortas.jpg" alt="Hortas Logo" style="height: 80px; width: auto; border-radius: var(--radius-sm); margin-bottom: 12px; object-fit: contain;" />
           <p>Marketplace de hortas urbanas</p>
         </div>
         <div class="card" style="padding:32px;">
@@ -63,6 +63,7 @@ function _renderLoginForm(role) {
     <div class="auth-layout">
       <div class="auth-container">
         <div class="auth-logo">
+          <img src="/img/logo-hortas.jpg" alt="Hortas Logo" style="height: 60px; width: auto; border-radius: var(--radius-sm); margin-bottom: 12px; object-fit: contain;" />
           <h1>${icon} ${titulo}</h1>
           <p>${desc}</p>
         </div>

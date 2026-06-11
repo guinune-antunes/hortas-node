@@ -8,7 +8,7 @@ function renderRegister() {
     <div class="auth-layout">
       <div class="auth-container" style="max-width:520px;">
         <div class="auth-logo">
-          <h1>🌱 Hortas</h1>
+          <img src="/img/logo-hortas.jpg" alt="Hortas Logo" style="height: 80px; width: auto; border-radius: var(--radius-sm); margin-bottom: 12px; object-fit: contain;" />
           <p>Crie sua conta de produtor</p>
         </div>
         <div class="card">

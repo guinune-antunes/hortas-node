@@ -8,7 +8,7 @@ function renderForgotPassword() {
     <div class="auth-layout">
       <div class="auth-container" style="max-width:480px;">
         <div class="auth-logo">
-          <h1>🌱 Hortas</h1>
+          <img src="/img/logo-hortas.jpg" alt="Hortas Logo" style="height: 80px; width: auto; border-radius: var(--radius-sm); margin-bottom: 12px; object-fit: contain;" />
           <p>Recuperar sua senha</p>
         </div>
         <div class="card">

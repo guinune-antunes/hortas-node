@@ -94,9 +94,12 @@ function renderAppShell() {
     <button class="mobile-toggle" id="mobileToggle" onclick="toggleSidebar()">☰</button>
     <div class="app-layout">
       <aside class="sidebar" id="sidebar">
-        <div class="sidebar-brand">
-          <h1>${config.brand.icon} ${config.brand.title}</h1>
-          <small>${config.brand.sub}</small>
+        <div class="sidebar-brand" style="display: flex; align-items: center; gap: 12px; padding: 16px 20px;">
+          <img src="/img/logo-hortas.jpg" alt="Hortas Logo" style="width: 36px; height: 36px; border-radius: var(--radius-sm); object-fit: cover;" />
+          <div>
+            <h1 style="font-size: 1.15rem; margin: 0; line-height: 1.2;">Hortas</h1>
+            <small style="display: block; font-size: 0.65rem; margin: 0;">${config.brand.sub}</small>
+          </div>
         </div>
         <nav class="sidebar-nav">${navHTML}</nav>
         <div class="sidebar-footer">
